@@ -121,6 +121,23 @@ ext {
                              photoview             : "com.github.chrisbanes.photoview:library:${photoViewVersion}",
                              leakCanary            : "com.squareup.leakcanary:leakcanary-android:${leakCanaryVersion}",]
 
+  dataDependencies = [daggerCompiler    : "com.google.dagger:dagger-compiler:${daggerVersion}",
+                      dagger            : "com.google.dagger:dagger:${daggerVersion}",
+                      rxJava            : "io.reactivex:rxjava:${rxJavaVersion}",
+                      rxAndroid         : "io.reactivex:rxandroid:${rxAndroidVersion}",
+                      gson              : "com.google.code.gson:gson:${gsonVersion}",
+                      javaxAnnotation   : "javax.annotation:jsr250-api:${javaxAnnotationVersion}",
+                      retrofit2         : "com.squareup.retrofit2:retrofit:${retrofit2Version}",
+                      retrofitGson      : "com.squareup.retrofit2:converter-gson:${retrofit2Version}",
+                      retrofitAdapter   : "com.squareup.retrofit2:adapter-rxjava:${retrofit2Version}",
+                      androidAnnotations: "com.android.support:support-annotations:${androidAnnotationsVersion}",
+                      reservoir         : "com.anupcowkur:reservoir:${reservoirVersion}",
+                      stetho            : "com.facebook.stetho:stetho:${stethoVersion}",
+                      stethoOkhttp3     : "com.facebook.stetho:stetho-okhttp3:${stethoVersion}",
+                      logger            : "com.github.zhaokaiqiang.klog:library:${loggerVersion}",
+                      LoggerInterceptor : "com.squareup.okhttp3:logging-interceptor:${okHttpVersion}",
+                      sqlite            : "com.squareup.sqlbrite:sqlbrite:${sqliteVersion}",]
+
   developmentTestDependencies = [mockito          : "org.mockito:mockito-core:${mockitoVersion}",
                                  dexmaker         : "com.google.dexmaker:dexmaker:${dexmakerVersion}",
                                  dexmakerMockito  : "com.google.dexmaker:dexmaker-mockito:${dexmakerVersion}",
